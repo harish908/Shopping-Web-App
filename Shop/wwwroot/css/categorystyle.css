@@ -1,0 +1,105 @@
+﻿#main-products-wallpaper {
+    text-align: center;
+    justify-content: center;
+}
+
+    #search-container{
+        width: 90%;
+        height: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+
+#search-items-input {
+    text-transform: lowercase;
+}
+
+#empty-search-container {
+    height: 30vh;
+    width: 70vw;
+    margin-bottom: 5vh;
+    margin-left: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-container div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+        #search-container img {
+            height: 25%;
+            width: 1.5%;
+            padding: 12.5px;
+            border: 0px;
+            margin-right: 2%;
+        }
+
+
+        #search-container input {
+            padding: 10px;
+            padding-left: 20px;
+            height: 100%;
+            width: 60%;
+            border: 0px;
+            border-bottom: 2px solid #ececec;
+            background-color: rgba(0,0,0,0);
+            outline: none;
+            color: white;
+            font-size: 1.3em;
+            font-family: "Raleway";
+        }
+
+.filter-options{
+    position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+    #search-container img {
+        width: 7%;
+    }
+
+    .swipe-down-button{
+        display: none;
+    }
+
+    #search-container {
+        margin-bottom: 15%;
+    }
+
+    #search-container input{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-height: 600px) and (orientation : landscape) {
+
+    .swipe-down-button{
+        display: none;
+    }
+
+    #search-container img {
+        width: 3%;
+    }
+
+    .shopping-cart-container {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    #title {
+        margin-top: 25vh;
+        font-size: 1.5em;
+    }
+
+    .product-container button {
+        width: 25%;
+    }
+}
